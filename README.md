@@ -1,3 +1,19 @@
+# React simple image search
+
+This app allows users to search for images and will display up to 10 images at a time (demo api limitations).
+
+The image search api is from [Unsplash](https://unsplash.com/developers).
+
+The purpose of this app is to practice react, axios, and css grid.
+
+## Run this app locally
+
+1. Clone the project and sign up for a unsplash developer account using the link above.
+2. When prompted, create a new app and scroll down to find your api keys.
+3. Create a new file `.env` in the root directory.
+4. Copy and paste `REACT_APP_UNSPLASH_ACCESS_KEY=your-api-key` into the newly create file.
+5. Copy and paste the access key from your app on unsplash, replacing `your-api-key` in the new file.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
