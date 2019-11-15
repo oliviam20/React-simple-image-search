@@ -1,5 +1,7 @@
 # React simple image search
 
+![screenshot of image search](https://res.cloudinary.com/dwfzniyyh/image/upload/v1573794668/screenshot-search.png)
+
 This app allows users to search for images and will display up to 10 images at a time (demo api limitations).
 
 The image search api is from [Unsplash](https://unsplash.com/developers).
