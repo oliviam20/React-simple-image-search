@@ -1,8 +1,16 @@
+/* grid-template-columns: creates a set number of columns */
+  /* auto-fill: grid css will automatically add how many columns to insert */
+  /* minmax: each column will have min-width 250px; 1fr is maximum allocation of space, all columns should be equally size */
+  /* grid-gap: 0px between each row, 10px gap between each column */
+  /* grid-auto-rows: change the row height; chose small height of 10px to match the grid gap and to more accurately determine the amount of vertical space the image needs (eg 150px will be tall rows, resulting in too much space) */
 .image-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 0 10px;
+  grid-auto-rows: 10x;
 }
 
 .image-list img {
   width: 250px;
+  grid-row-end: span 2;
 }

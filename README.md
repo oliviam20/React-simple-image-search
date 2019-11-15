@@ -6,6 +6,17 @@ The image search api is from [Unsplash](https://unsplash.com/developers).
 
 The purpose of this app is to practice react, axios, and css grid.
 
+The following files have comments for explanation:
+```
+// For css grid
+ImageCard.js
+ImageCard.less
+
+// For unsplash api
+App.js
+unsplash.js
+```
+
 ## Run this app locally
 
 1. Clone the project and sign up for a unsplash developer account using the link above.
